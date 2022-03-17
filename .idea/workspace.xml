@@ -2,7 +2,33 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b33b26e8-71ee-43cc-b684-98f46da0d979" name="Changes" comment="create User">
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/tasks/dev.rake" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/time_to_answer.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/time_to_answer.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Gemfile" beforeDir="false" afterPath="$PROJECT_DIR$/Gemfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Gemfile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/Gemfile.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/controllers/admins_backoffice_controller.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/controllers/admins_backoffice_controller.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/controllers/users_backoffice/welcome_controller.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/controllers/users_backoffice/welcome_controller.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/controllers/users_backoffice_controller.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/controllers/users_backoffice_controller.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/layouts/profiles_backoffice.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/layouts/users_backoffice.html.erb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/profiles/confirmations/new.html.erb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/profiles/mailer/confirmation_instructions.html.erb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/profiles/mailer/email_changed.html.erb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/profiles/mailer/password_change.html.erb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/profiles/mailer/reset_password_instructions.html.erb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/profiles/mailer/unlock_instructions.html.erb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/profiles/passwords/edit.html.erb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/profiles/passwords/new.html.erb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/profiles/registrations/edit.html.erb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/profiles/registrations/new.html.erb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/profiles/sessions/new.html.erb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/profiles/shared/_error_messages.html.erb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/profiles/shared/_links.html.erb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/profiles/unlocks/new.html.erb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/locales/models.pt-BR.yml" beforeDir="false" afterPath="$PROJECT_DIR$/config/locales/models.pt-BR.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/routes.rb" beforeDir="false" afterPath="$PROJECT_DIR$/config/routes.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db/schema.rb" beforeDir="false" afterPath="$PROJECT_DIR$/db/schema.rb" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -16,14 +42,18 @@
     <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="26WCz8vuJJPHmWkuxFSgr3KuoQ6" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="org.jetbrains.plugins.github.ui.GithubSettingsConfigurable" />
@@ -143,7 +173,7 @@
       <workItem from="1647530220628" duration="286000" />
       <workItem from="1647530534996" duration="146000" />
       <workItem from="1647530701035" duration="118000" />
-      <workItem from="1647530875391" duration="105000" />
+      <workItem from="1647530875391" duration="2732000" />
     </task>
     <task id="LOCAL-00001" summary="Remove Profile">
       <created>1647530325063</created>
@@ -159,7 +189,14 @@
       <option name="project" value="LOCAL" />
       <updated>1647530754985</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="create User">
+      <created>1647531064709</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1647531064709</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -177,6 +214,7 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="Remove Profile" />
     <MESSAGE value="create User" />
     <option name="LAST_COMMIT_MESSAGE" value="create User" />
