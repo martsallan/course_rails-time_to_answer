@@ -2,126 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b33b26e8-71ee-43cc-b684-98f46da0d979" name="Changes" comment="create logout links, find themes to project &amp; port SBAdmin theme for admins_backoffice">
-      <change afterPath="$PROJECT_DIR$/lib/assets/images/img.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/assets/javascripts/custom.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/assets/stylesheets/custom.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/assets/javascripts/jquery-2.2.3/.bower.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/assets/javascripts/jquery-2.2.3/AUTHORS.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/assets/javascripts/jquery-2.2.3/LICENSE.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/assets/javascripts/jquery-2.2.3/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/assets/javascripts/jquery-2.2.3/bower.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/assets/javascripts/jquery-2.2.3/dist/jquery.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/assets/javascripts/jquery-2.2.3/dist/jquery.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/assets/javascripts/jquery-2.2.3/dist/jquery.min.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/assets/javascripts/jquery-2.2.3/external/sizzle/LICENSE.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/assets/javascripts/jquery-2.2.3/external/sizzle/dist/sizzle.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/assets/javascripts/jquery-2.2.3/external/sizzle/dist/sizzle.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/assets/javascripts/jquery-2.2.3/external/sizzle/dist/sizzle.min.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/assets/javascripts/jquery-2.2.3/src/.jshintrc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/assets/javascripts/jquery-2.2.3/src/ajax.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/assets/javascripts/jquery-2.2.3/src/ajax/jsonp.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/assets/javascripts/jquery-2.2.3/src/ajax/load.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/assets/javascripts/jquery-2.2.3/src/ajax/parseJSON.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/assets/javascripts/jquery-2.2.3/src/ajax/parseXML.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/assets/javascripts/jquery-2.2.3/src/ajax/script.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/assets/javascripts/jquery-2.2.3/src/ajax/var/location.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/assets/javascripts/jquery-2.2.3/src/ajax/var/nonce.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/assets/javascripts/jquery-2.2.3/src/ajax/var/rquery.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/assets/javascripts/jquery-2.2.3/src/ajax/xhr.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/assets/javascripts/jquery-2.2.3/src/attributes.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/assets/javascripts/jquery-2.2.3/src/attributes/attr.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/assets/javascripts/jquery-2.2.3/src/attributes/classes.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/assets/javascripts/jquery-2.2.3/src/attributes/prop.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/assets/javascripts/jquery-2.2.3/src/attributes/support.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/assets/javascripts/jquery-2.2.3/src/attributes/val.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/assets/javascripts/jquery-2.2.3/src/callbacks.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/assets/javascripts/jquery-2.2.3/src/core.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/assets/javascripts/jquery-2.2.3/src/core/access.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/assets/javascripts/jquery-2.2.3/src/core/init.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/assets/javascripts/jquery-2.2.3/src/core/parseHTML.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/assets/javascripts/jquery-2.2.3/src/core/ready.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/assets/javascripts/jquery-2.2.3/src/core/var/rsingleTag.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/assets/javascripts/jquery-2.2.3/src/css.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/assets/javascripts/jquery-2.2.3/src/css/addGetHookIf.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/assets/javascripts/jquery-2.2.3/src/css/adjustCSS.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/assets/javascripts/jquery-2.2.3/src/css/curCSS.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/assets/javascripts/jquery-2.2.3/src/css/defaultDisplay.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/assets/javascripts/jquery-2.2.3/src/css/hiddenVisibleSelectors.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/assets/javascripts/jquery-2.2.3/src/css/showHide.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/assets/javascripts/jquery-2.2.3/src/css/support.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/assets/javascripts/jquery-2.2.3/src/css/var/cssExpand.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/assets/javascripts/jquery-2.2.3/src/css/var/getStyles.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/assets/javascripts/jquery-2.2.3/src/css/var/isHidden.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/assets/javascripts/jquery-2.2.3/src/css/var/rmargin.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/assets/javascripts/jquery-2.2.3/src/css/var/rnumnonpx.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/assets/javascripts/jquery-2.2.3/src/css/var/swap.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/assets/javascripts/jquery-2.2.3/src/data.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/assets/javascripts/jquery-2.2.3/src/data/Data.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/assets/javascripts/jquery-2.2.3/src/data/var/acceptData.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/assets/javascripts/jquery-2.2.3/src/data/var/dataPriv.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/assets/javascripts/jquery-2.2.3/src/data/var/dataUser.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/assets/javascripts/jquery-2.2.3/src/deferred.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/assets/javascripts/jquery-2.2.3/src/deprecated.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/assets/javascripts/jquery-2.2.3/src/dimensions.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/assets/javascripts/jquery-2.2.3/src/effects.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/assets/javascripts/jquery-2.2.3/src/effects/Tween.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/assets/javascripts/jquery-2.2.3/src/effects/animatedSelector.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/assets/javascripts/jquery-2.2.3/src/event.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/assets/javascripts/jquery-2.2.3/src/event/ajax.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/assets/javascripts/jquery-2.2.3/src/event/alias.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/assets/javascripts/jquery-2.2.3/src/event/focusin.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/assets/javascripts/jquery-2.2.3/src/event/support.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/assets/javascripts/jquery-2.2.3/src/event/trigger.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/assets/javascripts/jquery-2.2.3/src/exports/amd.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/assets/javascripts/jquery-2.2.3/src/exports/global.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/assets/javascripts/jquery-2.2.3/src/intro.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/assets/javascripts/jquery-2.2.3/src/jquery.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/assets/javascripts/jquery-2.2.3/src/manipulation.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/assets/javascripts/jquery-2.2.3/src/manipulation/_evalUrl.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/assets/javascripts/jquery-2.2.3/src/manipulation/buildFragment.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/assets/javascripts/jquery-2.2.3/src/manipulation/getAll.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/assets/javascripts/jquery-2.2.3/src/manipulation/setGlobalEval.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/assets/javascripts/jquery-2.2.3/src/manipulation/support.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/assets/javascripts/jquery-2.2.3/src/manipulation/var/rcheckableType.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/assets/javascripts/jquery-2.2.3/src/manipulation/var/rscriptType.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/assets/javascripts/jquery-2.2.3/src/manipulation/var/rtagName.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/assets/javascripts/jquery-2.2.3/src/manipulation/wrapMap.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/assets/javascripts/jquery-2.2.3/src/offset.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/assets/javascripts/jquery-2.2.3/src/outro.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/assets/javascripts/jquery-2.2.3/src/queue.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/assets/javascripts/jquery-2.2.3/src/queue/delay.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/assets/javascripts/jquery-2.2.3/src/selector-native.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/assets/javascripts/jquery-2.2.3/src/selector-sizzle.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/assets/javascripts/jquery-2.2.3/src/selector.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/assets/javascripts/jquery-2.2.3/src/serialize.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/assets/javascripts/jquery-2.2.3/src/traversing.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/assets/javascripts/jquery-2.2.3/src/traversing/findFilter.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/assets/javascripts/jquery-2.2.3/src/traversing/var/dir.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/assets/javascripts/jquery-2.2.3/src/traversing/var/rneedsContext.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/assets/javascripts/jquery-2.2.3/src/traversing/var/siblings.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/assets/javascripts/jquery-2.2.3/src/var/arr.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/assets/javascripts/jquery-2.2.3/src/var/class2type.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/assets/javascripts/jquery-2.2.3/src/var/concat.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/assets/javascripts/jquery-2.2.3/src/var/document.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/assets/javascripts/jquery-2.2.3/src/var/documentElement.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/assets/javascripts/jquery-2.2.3/src/var/hasOwn.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/assets/javascripts/jquery-2.2.3/src/var/indexOf.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/assets/javascripts/jquery-2.2.3/src/var/pnum.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/assets/javascripts/jquery-2.2.3/src/var/push.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/assets/javascripts/jquery-2.2.3/src/var/rcssNum.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/assets/javascripts/jquery-2.2.3/src/var/rnotwhite.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/assets/javascripts/jquery-2.2.3/src/var/slice.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/assets/javascripts/jquery-2.2.3/src/var/support.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/assets/javascripts/jquery-2.2.3/src/var/toString.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/assets/javascripts/jquery-2.2.3/src/wrap.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/assets/images/xmg.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/assets/javascripts/users_backoffice.coffee" beforeDir="false" afterPath="$PROJECT_DIR$/app/assets/javascripts/users_backoffice.coffee" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/assets/stylesheets/users_backoffice.scss" beforeDir="false" afterPath="$PROJECT_DIR$/app/assets/stylesheets/users_backoffice.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/layouts/admins_backoffice.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/layouts/admins_backoffice.html.erb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/views/layouts/users_backoffice.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/layouts/users_backoffice.html.erb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/initializers/assets.rb" beforeDir="false" afterPath="$PROJECT_DIR$/config/initializers/assets.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/assets/images/img.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/lib/assets/images/img.jpg" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -287,6 +172,7 @@
       <workItem from="1647604464662" duration="203000" />
       <workItem from="1647604677850" duration="3221000" />
       <workItem from="1647610241661" duration="3556000" />
+      <workItem from="1647688745101" duration="1003000" />
     </task>
     <task id="LOCAL-00001" summary="Remove Profile">
       <created>1647530325063</created>
