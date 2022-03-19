@@ -1,12 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b33b26e8-71ee-43cc-b684-98f46da0d979" name="Changes" comment="create logout links, find themes to project &amp; port SBAdmin theme for admins_backoffice">
-      <change afterPath="$PROJECT_DIR$/lib/assets/images/xmg.jpg" afterDir="false" />
+    <list default="true" id="b33b26e8-71ee-43cc-b684-98f46da0d979" name="Changes" comment="adjust logout buttons in admin and user">
+      <change afterPath="$PROJECT_DIR$/app/assets/javascripts/admins_backoffice/admins.coffee" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/assets/stylesheets/admins_backoffice/admins.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/controllers/admins_backoffice/admins_controller.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/helpers/admins_backoffice/admins_helper.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/views/admins_backoffice/admins/edit.html.erb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/views/admins_backoffice/admins/index.html.erb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/time_to_answer.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/time_to_answer.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Gemfile" beforeDir="false" afterPath="$PROJECT_DIR$/Gemfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Gemfile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/Gemfile.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/views/layouts/admins_backoffice.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/layouts/admins_backoffice.html.erb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/layouts/users_backoffice.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/layouts/users_backoffice.html.erb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/assets/images/img.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/lib/assets/images/img.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/routes.rb" beforeDir="false" afterPath="$PROJECT_DIR$/config/routes.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/tasks/dev.rake" beforeDir="false" afterPath="$PROJECT_DIR$/lib/tasks/dev.rake" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -172,7 +180,7 @@
       <workItem from="1647604464662" duration="203000" />
       <workItem from="1647604677850" duration="3221000" />
       <workItem from="1647610241661" duration="3556000" />
-      <workItem from="1647688745101" duration="1003000" />
+      <workItem from="1647688745101" duration="4790000" />
     </task>
     <task id="LOCAL-00001" summary="Remove Profile">
       <created>1647530325063</created>
@@ -202,7 +210,14 @@
       <option name="project" value="LOCAL" />
       <updated>1647606916268</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="adjust logout buttons in admin and user">
+      <created>1647690081035</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1647690081035</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -224,6 +239,7 @@
     <MESSAGE value="Remove Profile" />
     <MESSAGE value="create User" />
     <MESSAGE value="create logout links, find themes to project &amp; port SBAdmin theme for admins_backoffice" />
-    <option name="LAST_COMMIT_MESSAGE" value="create logout links, find themes to project &amp; port SBAdmin theme for admins_backoffice" />
+    <MESSAGE value="adjust logout buttons in admin and user" />
+    <option name="LAST_COMMIT_MESSAGE" value="adjust logout buttons in admin and user" />
   </component>
 </project>
