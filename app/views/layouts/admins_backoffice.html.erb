@@ -11,8 +11,8 @@
   <%= csrf_meta_tags %>
   <%= csp_meta_tag %>
 
-  <%= stylesheet_link_tag    'application'%>
-  <%= stylesheet_link_tag    'admins_backoffice'%>
+  <%= stylesheet_link_tag 'application' %>
+  <%= stylesheet_link_tag 'admins_backoffice' %>
 
 </head>
 
@@ -43,7 +43,7 @@
           <!-- <li class="divider"></li> -->
           <li>
             <%= link_to destroy_admin_session_path, method: :delete do %>
-            <i class="fa fa-sign-out fa-fw"></i> Sair
+              <i class="fa fa-sign-out fa-fw"></i> Sair
             <% end %>
           </li>
         </ul>
@@ -59,12 +59,12 @@
           <li>
             <%= link_to admins_backoffice_welcome_index_path do %>
               <i class="fa fa-dashboard fa-fw"></i> Dashboard
-            <%end %>
+            <% end %>
           </li>
           <li>
             <%= link_to admins_backoffice_admins_path do %>
               <i class="fa fa-users fa-fw"></i> Administradores
-            <%end %>
+            <% end %>
           </li>
         </ul>
       </div>
@@ -91,8 +91,19 @@
 </div>
 <!-- /#wrapper -->
 
-<%= javascript_include_tag 'application'%>
-<%= javascript_include_tag 'admins_backoffice'%>
+<%= javascript_include_tag 'application' %>
+<%= javascript_include_tag 'admins_backoffice' %>
+
+<% if notice %>
+  <%= javascript_tag do %>
+    $.bootstrapGrowl('<%= notice %>', {
+    type: 'success', // (null, 'info', 'danger', 'success')
+    align: 'right', // ('left', 'right', or 'center')
+    allow_dismiss: true, // If true then will display a cross to close the popup.
+    stackup_spacing: 10 // spacing between consecutively stacked growls.
+    });
+  <% end %>
+<% end %>
 
 </body>
 

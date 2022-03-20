@@ -1,20 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b33b26e8-71ee-43cc-b684-98f46da0d979" name="Changes" comment="adjust logout buttons in admin and user">
-      <change afterPath="$PROJECT_DIR$/app/assets/javascripts/admins_backoffice/admins.coffee" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/assets/stylesheets/admins_backoffice/admins.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/controllers/admins_backoffice/admins_controller.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/helpers/admins_backoffice/admins_helper.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/views/admins_backoffice/admins/edit.html.erb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/views/admins_backoffice/admins/index.html.erb" afterDir="false" />
+    <list default="true" id="b33b26e8-71ee-43cc-b684-98f46da0d979" name="Changes" comment="edit layout admin, add faker task, create and adjust table &amp; routes of admins">
+      <change afterPath="$PROJECT_DIR$/app/views/admins_backoffice/admins/new.html.erb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/time_to_answer.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/time_to_answer.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Gemfile" beforeDir="false" afterPath="$PROJECT_DIR$/Gemfile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Gemfile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/Gemfile.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/assets/javascripts/admins_backoffice.coffee" beforeDir="false" afterPath="$PROJECT_DIR$/app/assets/javascripts/admins_backoffice.coffee" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/controllers/admins_backoffice/admins_controller.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/controllers/admins_backoffice/admins_controller.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/admins_backoffice/admins/edit.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/admins_backoffice/admins/edit.html.erb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/admins_backoffice/admins/index.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/admins_backoffice/admins/index.html.erb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/views/layouts/admins_backoffice.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/layouts/admins_backoffice.html.erb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/locales/models.pt-BR.yml" beforeDir="false" afterPath="$PROJECT_DIR$/config/locales/models.pt-BR.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/config/routes.rb" beforeDir="false" afterPath="$PROJECT_DIR$/config/routes.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/tasks/dev.rake" beforeDir="false" afterPath="$PROJECT_DIR$/lib/tasks/dev.rake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -23,6 +22,14 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -180,7 +187,8 @@
       <workItem from="1647604464662" duration="203000" />
       <workItem from="1647604677850" duration="3221000" />
       <workItem from="1647610241661" duration="3556000" />
-      <workItem from="1647688745101" duration="4790000" />
+      <workItem from="1647688745101" duration="5434000" />
+      <workItem from="1647773266507" duration="6280000" />
     </task>
     <task id="LOCAL-00001" summary="Remove Profile">
       <created>1647530325063</created>
@@ -217,7 +225,14 @@
       <option name="project" value="LOCAL" />
       <updated>1647690081035</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="edit layout admin, add faker task, create and adjust table &amp; routes of admins">
+      <created>1647693539393</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1647693539393</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -240,6 +255,7 @@
     <MESSAGE value="create User" />
     <MESSAGE value="create logout links, find themes to project &amp; port SBAdmin theme for admins_backoffice" />
     <MESSAGE value="adjust logout buttons in admin and user" />
-    <option name="LAST_COMMIT_MESSAGE" value="adjust logout buttons in admin and user" />
+    <MESSAGE value="edit layout admin, add faker task, create and adjust table &amp; routes of admins" />
+    <option name="LAST_COMMIT_MESSAGE" value="edit layout admin, add faker task, create and adjust table &amp; routes of admins" />
   </component>
 </project>
