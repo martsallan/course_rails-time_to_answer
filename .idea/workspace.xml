@@ -1,22 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b33b26e8-71ee-43cc-b684-98f46da0d979" name="Changes" comment="refactoring CRUD with partials to new/edit admins">
-      <change afterPath="$PROJECT_DIR$/app/views/kaminari/_first_page.html.erb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/views/kaminari/_gap.html.erb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/views/kaminari/_last_page.html.erb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/views/kaminari/_next_page.html.erb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/views/kaminari/_page.html.erb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/views/kaminari/_paginator.html.erb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/views/kaminari/_prev_page.html.erb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/time_to_answer.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/time_to_answer.iml" afterDir="false" />
+    <list default="true" id="b33b26e8-71ee-43cc-b684-98f46da0d979" name="Changes" comment="add paginator with Kaminari">
+      <change afterPath="$PROJECT_DIR$/app/assets/javascripts/admins_backoffice/subjects.coffee" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/assets/stylesheets/admins_backoffice/subjects.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/controllers/admins_backoffice/subjects_controller.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/helpers/admins_backoffice/subjects_helper.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/models/answer.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/models/question.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/models/subject.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/views/admins_backoffice/subjects/edit.html.erb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/views/admins_backoffice/subjects/index.html.erb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/views/admins_backoffice/subjects/new.html.erb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/views/admins_backoffice/subjects/shared/_form.html.erb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/db/migrate/20220321172647_create_subjects.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/db/migrate/20220321194236_create_questions.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/db/migrate/20220321194413_create_answers.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/tmp/subjects.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Gemfile" beforeDir="false" afterPath="$PROJECT_DIR$/Gemfile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Gemfile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/Gemfile.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/controllers/admins_backoffice/admins_controller.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/controllers/admins_backoffice/admins_controller.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/models/admin.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/models/admin.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/admins_backoffice/admins/index.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/admins_backoffice/admins/index.html.erb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/application.rb" beforeDir="false" afterPath="$PROJECT_DIR$/config/application.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/layouts/admins_backoffice.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/layouts/admins_backoffice.html.erb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/routes.rb" beforeDir="false" afterPath="$PROJECT_DIR$/config/routes.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db/schema.rb" beforeDir="false" afterPath="$PROJECT_DIR$/db/schema.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/tasks/dev.rake" beforeDir="false" afterPath="$PROJECT_DIR$/lib/tasks/dev.rake" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -192,7 +198,7 @@
       <workItem from="1647610241661" duration="3556000" />
       <workItem from="1647688745101" duration="5434000" />
       <workItem from="1647773266507" duration="6280000" />
-      <workItem from="1647871911248" duration="3866000" />
+      <workItem from="1647871911248" duration="11447000" />
     </task>
     <task id="LOCAL-00001" summary="Remove Profile">
       <created>1647530325063</created>
@@ -243,7 +249,14 @@
       <option name="project" value="LOCAL" />
       <updated>1647872684913</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="add paginator with Kaminari">
+      <created>1647875870003</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1647875870003</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -268,6 +281,7 @@
     <MESSAGE value="adjust logout buttons in admin and user" />
     <MESSAGE value="edit layout admin, add faker task, create and adjust table &amp; routes of admins" />
     <MESSAGE value="refactoring CRUD with partials to new/edit admins" />
-    <option name="LAST_COMMIT_MESSAGE" value="refactoring CRUD with partials to new/edit admins" />
+    <MESSAGE value="add paginator with Kaminari" />
+    <option name="LAST_COMMIT_MESSAGE" value="add paginator with Kaminari" />
   </component>
 </project>
