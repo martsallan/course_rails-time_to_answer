@@ -7,6 +7,12 @@
       profile:
         one: Usuário
         other: Usuários
+      subject:
+        one: Assunto
+        other: Assuntos
+      question:
+        one: Pergunta
+        other: Perguntas
     attributes:
       admin:
         id: Código
@@ -15,9 +21,21 @@
         password_confirmation: Confirmação da senha
         created_at: Criado em
         update_at: Atualizado em
-      profile:
+      user:
         id: Código
         email: Email
         created_at: Criado em
         update_at: Atualizado em
+      subject:
+        id: Código
+        description: Descrição
+        created_at: Criado em
+        updated_at: Atualizado em
+      question:
+        id: Código
+        description: Descrição
+        subject: Assunto
+        subject_id: Assunto
+        created_at: Criado em
+        updated_at: Atualizado em
       # will translate User attribute "login" as "Handle"
