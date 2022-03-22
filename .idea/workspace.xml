@@ -1,14 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b33b26e8-71ee-43cc-b684-98f46da0d979" name="Changes" comment="fix N+1 SQL_ActiveRecord problem">
-      <change afterPath="$PROJECT_DIR$/config/locales/messages.pt-BR.yml" afterDir="false" />
+    <list default="true" id="b33b26e8-71ee-43cc-b684-98f46da0d979" name="Changes" comment="change admin_backoffice texts to i18n">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/helpers/admins_backoffice_helper.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/helpers/admins_backoffice_helper.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/admins_backoffice/admins/index.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/admins_backoffice/admins/index.html.erb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/admins_backoffice/questions/index.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/admins_backoffice/questions/index.html.erb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/admins_backoffice/subjects/index.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/admins_backoffice/subjects/index.html.erb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/locales/models.pt-BR.yml" beforeDir="false" afterPath="$PROJECT_DIR$/config/locales/models.pt-BR.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/admins_backoffice/admins/edit.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/admins_backoffice/admins/edit.html.erb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/admins_backoffice/admins/new.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/admins_backoffice/admins/new.html.erb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/admins_backoffice/admins/shared/_form.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/admins_backoffice/admins/shared/_form.html.erb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/admins_backoffice/subjects/shared/_form.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/admins_backoffice/subjects/shared/_form.html.erb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/locales/messages.pt-BR.yml" beforeDir="false" afterPath="$PROJECT_DIR$/config/locales/messages.pt-BR.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -185,7 +184,7 @@
       <workItem from="1647688745101" duration="5434000" />
       <workItem from="1647773266507" duration="6280000" />
       <workItem from="1647871911248" duration="15561000" />
-      <workItem from="1647959271211" duration="4417000" />
+      <workItem from="1647959271211" duration="5570000" />
     </task>
     <task id="LOCAL-00001" summary="Remove Profile">
       <created>1647530325063</created>
@@ -264,7 +263,14 @@
       <option name="project" value="LOCAL" />
       <updated>1647960178116</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="change admin_backoffice texts to i18n">
+      <created>1647964359973</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1647964359973</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -292,6 +298,7 @@
     <MESSAGE value="add paginator with Kaminari" />
     <MESSAGE value="create MVC (model,view, controller) to Subjects" />
     <MESSAGE value="fix N+1 SQL_ActiveRecord problem" />
-    <option name="LAST_COMMIT_MESSAGE" value="fix N+1 SQL_ActiveRecord problem" />
+    <MESSAGE value="change admin_backoffice texts to i18n" />
+    <option name="LAST_COMMIT_MESSAGE" value="change admin_backoffice texts to i18n" />
   </component>
 </project>
