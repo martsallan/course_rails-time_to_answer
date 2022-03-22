@@ -10,6 +10,7 @@
       <change afterPath="$PROJECT_DIR$/app/views/admins_backoffice/questions/index.html.erb" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/app/views/admins_backoffice/questions/new.html.erb" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/app/views/admins_backoffice/questions/shared/_form.html.erb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/time_to_answer.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/time_to_answer.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/models/subject.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/models/subject.rb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/views/layouts/admins_backoffice.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/layouts/admins_backoffice.html.erb" afterDir="false" />
@@ -191,6 +192,7 @@
       <workItem from="1647688745101" duration="5434000" />
       <workItem from="1647773266507" duration="6280000" />
       <workItem from="1647871911248" duration="15561000" />
+      <workItem from="1647959271211" duration="777000" />
     </task>
     <task id="LOCAL-00001" summary="Remove Profile">
       <created>1647530325063</created>
@@ -255,7 +257,14 @@
       <option name="project" value="LOCAL" />
       <updated>1647896618840</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="create MVC (model,view, controller) to Subjects">
+      <created>1647959772213</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1647959772213</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
