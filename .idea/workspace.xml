@@ -1,15 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b33b26e8-71ee-43cc-b684-98f46da0d979" name="Changes" comment="create task for answers (w/ nested attributes)">
-      <change afterPath="$PROJECT_DIR$/app/views/admins_backoffice/questions/_answer_fields.html.erb" afterDir="false" />
+    <list default="true" id="b33b26e8-71ee-43cc-b684-98f46da0d979" name="Changes" comment="install and config gem cocoon for form with nested attributes">
+      <change afterPath="$PROJECT_DIR$/app/assets/javascripts/admin_devise.coffee" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/assets/stylesheets/admin_devise.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/views/layouts/admin_devise.html.erb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Gemfile" beforeDir="false" afterPath="$PROJECT_DIR$/Gemfile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Gemfile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/Gemfile.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/assets/javascripts/admins_backoffice.coffee" beforeDir="false" afterPath="$PROJECT_DIR$/app/assets/javascripts/admins_backoffice.coffee" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/controllers/admins_backoffice/questions_controller.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/controllers/admins_backoffice/questions_controller.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/models/question.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/models/question.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/admins_backoffice/questions/shared/_form.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/admins_backoffice/questions/shared/_form.html.erb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/controllers/application_controller.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/controllers/application_controller.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/admins/sessions/new.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/admins/sessions/new.html.erb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/initializers/assets.rb" beforeDir="false" afterPath="$PROJECT_DIR$/config/initializers/assets.rb" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,17 +43,17 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/app/views/admins_backoffice" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/app/assets/javascripts" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.tabs" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/app/assets/javascripts" />
       <recent name="$PROJECT_DIR$/app/views/admins_backoffice" />
       <recent name="$PROJECT_DIR$/lib/assets/images" />
       <recent name="$PROJECT_DIR$/vendor/assets/javascripts" />
       <recent name="$PROJECT_DIR$/lib/assets/javascripts" />
-      <recent name="$PROJECT_DIR$/lib/assets" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/lib/assets/stylesheets" />
@@ -189,6 +188,7 @@
       <workItem from="1647959271211" duration="7725000" />
       <workItem from="1648035826865" duration="8288000" />
       <workItem from="1648047563859" duration="1013000" />
+      <workItem from="1648048588730" duration="2635000" />
     </task>
     <task id="LOCAL-00001" summary="Remove Profile">
       <created>1647530325063</created>
@@ -295,7 +295,14 @@
       <option name="project" value="LOCAL" />
       <updated>1648040793368</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="install and config gem cocoon for form with nested attributes">
+      <created>1648048846593</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1648048846594</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -327,6 +334,7 @@
     <MESSAGE value="more changes admin_backoffice texts to i18n" />
     <MESSAGE value="more files about last commit" />
     <MESSAGE value="create task for answers (w/ nested attributes)" />
-    <option name="LAST_COMMIT_MESSAGE" value="create task for answers (w/ nested attributes)" />
+    <MESSAGE value="install and config gem cocoon for form with nested attributes" />
+    <option name="LAST_COMMIT_MESSAGE" value="install and config gem cocoon for form with nested attributes" />
   </component>
 </project>
