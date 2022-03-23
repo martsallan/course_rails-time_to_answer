@@ -1,11 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b33b26e8-71ee-43cc-b684-98f46da0d979" name="Changes" comment="more files about last commit">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+    <list default="true" id="b33b26e8-71ee-43cc-b684-98f46da0d979" name="Changes" comment="create task for answers (w/ nested attributes)">
+      <change afterPath="$PROJECT_DIR$/app/views/admins_backoffice/questions/_answer_fields.html.erb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Gemfile" beforeDir="false" afterPath="$PROJECT_DIR$/Gemfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Gemfile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/Gemfile.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/assets/javascripts/admins_backoffice.coffee" beforeDir="false" afterPath="$PROJECT_DIR$/app/assets/javascripts/admins_backoffice.coffee" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/controllers/admins_backoffice/questions_controller.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/controllers/admins_backoffice/questions_controller.rb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/models/question.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/models/question.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/tasks/dev.rake" beforeDir="false" afterPath="$PROJECT_DIR$/lib/tasks/dev.rake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/admins_backoffice/questions/shared/_form.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/admins_backoffice/questions/shared/_form.html.erb" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,7 +46,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/app/views/admins_backoffice" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="terminal" />
+    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -183,7 +187,8 @@
       <workItem from="1647773266507" duration="6280000" />
       <workItem from="1647871911248" duration="15561000" />
       <workItem from="1647959271211" duration="7725000" />
-      <workItem from="1648035826865" duration="4044000" />
+      <workItem from="1648035826865" duration="8288000" />
+      <workItem from="1648047563859" duration="1013000" />
     </task>
     <task id="LOCAL-00001" summary="Remove Profile">
       <created>1647530325063</created>
@@ -283,7 +288,14 @@
       <option name="project" value="LOCAL" />
       <updated>1647965426672</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="create task for answers (w/ nested attributes)">
+      <created>1648040793368</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1648040793368</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -314,6 +326,7 @@
     <MESSAGE value="change admin_backoffice texts to i18n" />
     <MESSAGE value="more changes admin_backoffice texts to i18n" />
     <MESSAGE value="more files about last commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="more files about last commit" />
+    <MESSAGE value="create task for answers (w/ nested attributes)" />
+    <option name="LAST_COMMIT_MESSAGE" value="create task for answers (w/ nested attributes)" />
   </component>
 </project>
