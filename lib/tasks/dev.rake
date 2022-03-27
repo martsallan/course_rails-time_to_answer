@@ -74,6 +74,15 @@ namespace :dev do
     end
   end
 
+  desc "Reseta o contador dos assuntos"
+  task reset_subject_counter: :environment do
+    show_spinner("Resetando contador dos assuntos...") do
+      Subject.all.each do |subject|
+        Subject.reset_counters(subject.id, :questions)
+      end
+    end
+  end
+
   private
 
   def add_answers(answers_array = [])
@@ -89,7 +98,6 @@ namespace :dev do
     answers_array[selected_index] = create_answer_params(true)
   end
 
-
   def create_answer_params (correct = false)
     { description: Faker::Lorem.sentence, correct: correct }
   end
@@ -99,7 +107,7 @@ namespace :dev do
       description: "#{Faker::Lorem.paragraph} #{Faker::Lorem.question}",
       subject: subject,
       answers_attributes: []
-    }}
+    } }
   end
 
   def show_spinner(msg_start, msg_end = "Concluído!")
@@ -109,3 +117,4 @@ namespace :dev do
     spinner.success("(#{msg_end})")
   end
 end
+
