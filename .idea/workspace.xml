@@ -1,14 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b33b26e8-71ee-43cc-b684-98f46da0d979" name="Changes" comment="filter questions by subject">
-      <change afterPath="$PROJECT_DIR$/db/migrate/20220327222045_add_questions_count_to_subjects.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+    <list default="true" id="b33b26e8-71ee-43cc-b684-98f46da0d979" name="Changes" comment="use of counter_cache for count quantity of questions by subject">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/models/question.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/models/question.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/site/shared/_questions.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/site/shared/_questions.html.erb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/db/schema.rb" beforeDir="false" afterPath="$PROJECT_DIR$/db/schema.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/tasks/dev.rake" beforeDir="false" afterPath="$PROJECT_DIR$/lib/tasks/dev.rake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/layouts/user_devise.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/layouts/user_devise.html.erb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/users/registrations/new.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/users/registrations/new.html.erb" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -191,7 +187,7 @@
       <workItem from="1648048588730" duration="3490000" />
       <workItem from="1648126506110" duration="617000" />
       <workItem from="1648134536035" duration="8465000" />
-      <workItem from="1648335969915" duration="16363000" />
+      <workItem from="1648335969915" duration="16970000" />
     </task>
     <task id="LOCAL-00001" summary="Remove Profile">
       <created>1647530325063</created>
@@ -368,7 +364,14 @@
       <option name="project" value="LOCAL" />
       <updated>1648418916388</updated>
     </task>
-    <option name="localTasksCounter" value="26" />
+    <task id="LOCAL-00026" summary="use of counter_cache for count quantity of questions by subject">
+      <created>1648420210841</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1648420210841</updated>
+    </task>
+    <option name="localTasksCounter" value="27" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -409,6 +412,7 @@
     <MESSAGE value="apply scopes to search queries" />
     <MESSAGE value="verify answers with JS" />
     <MESSAGE value="filter questions by subject" />
-    <option name="LAST_COMMIT_MESSAGE" value="filter questions by subject" />
+    <MESSAGE value="use of counter_cache for count quantity of questions by subject" />
+    <option name="LAST_COMMIT_MESSAGE" value="use of counter_cache for count quantity of questions by subject" />
   </component>
 </project>
