@@ -1,15 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b33b26e8-71ee-43cc-b684-98f46da0d979" name="Changes" comment="apply scopes to search queries">
-      <change afterPath="$PROJECT_DIR$/app/assets/javascripts/site/answer.coffee" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/assets/stylesheets/site/answer.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/controllers/site/answer_controller.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/helpers/site/answer_helper.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/views/site/answer/question.html.erb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/views/site/answer/question.js.erb" afterDir="false" />
+    <list default="true" id="b33b26e8-71ee-43cc-b684-98f46da0d979" name="Changes" comment="verify answers with JS">
+      <change afterPath="$PROJECT_DIR$/app/views/site/search/subject.html.erb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/layouts/site.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/layouts/site.html.erb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/controllers/site/search_controller.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/controllers/site/search_controller.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/helpers/site_helper.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/helpers/site_helper.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/models/question.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/models/question.rb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/views/site/shared/_questions.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/site/shared/_questions.html.erb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/config/routes.rb" beforeDir="false" afterPath="$PROJECT_DIR$/config/routes.rb" afterDir="false" />
     </list>
@@ -194,7 +191,7 @@
       <workItem from="1648048588730" duration="3490000" />
       <workItem from="1648126506110" duration="617000" />
       <workItem from="1648134536035" duration="8465000" />
-      <workItem from="1648335969915" duration="11528000" />
+      <workItem from="1648335969915" duration="15081000" />
     </task>
     <task id="LOCAL-00001" summary="Remove Profile">
       <created>1647530325063</created>
@@ -350,7 +347,21 @@
       <option name="project" value="LOCAL" />
       <updated>1648379149172</updated>
     </task>
-    <option name="localTasksCounter" value="23" />
+    <task id="LOCAL-00023" summary="verify answers with JS">
+      <created>1648387131727</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1648387131727</updated>
+    </task>
+    <task id="LOCAL-00024" summary="verify answers with JS">
+      <created>1648387149496</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1648387149496</updated>
+    </task>
+    <option name="localTasksCounter" value="25" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -389,6 +400,7 @@
     <MESSAGE value="show questions and answers in default site" />
     <MESSAGE value="create search form for questions" />
     <MESSAGE value="apply scopes to search queries" />
-    <option name="LAST_COMMIT_MESSAGE" value="apply scopes to search queries" />
+    <MESSAGE value="verify answers with JS" />
+    <option name="LAST_COMMIT_MESSAGE" value="verify answers with JS" />
   </component>
 </project>
