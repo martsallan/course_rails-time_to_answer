@@ -11,10 +11,11 @@ Rails.application.routes.draw do
     resources :subjects #Assuntos/Áreas
     resources :questions #Assuntos/Áreas
   end
-  devise_for :admins
   namespace :users_backoffice do
     get 'welcome/index'
   end
+
+  devise_for :admins, skip: [:registrations]
   devise_for :users
 
   root to: 'site/welcome#index'
