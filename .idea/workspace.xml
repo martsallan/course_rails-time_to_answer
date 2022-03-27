@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b33b26e8-71ee-43cc-b684-98f46da0d979" name="Changes" comment="apply user login template">
-      <change afterPath="$PROJECT_DIR$/lib/assets/javascripts/surface-fix.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/assets/stylesheets/navbar.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/assets/stylesheets/surface-fix.css" afterDir="false" />
+    <list default="true" id="b33b26e8-71ee-43cc-b684-98f46da0d979" name="Changes" comment="apply and config index site template">
+      <change beforePath="$PROJECT_DIR$/.idea/time_to_answer.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/time_to_answer.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/assets/javascripts/site.coffee" beforeDir="false" afterPath="$PROJECT_DIR$/app/assets/javascripts/site.coffee" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/assets/stylesheets/site.scss" beforeDir="false" afterPath="$PROJECT_DIR$/app/assets/stylesheets/site.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/controllers/site/welcome_controller.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/controllers/site/welcome_controller.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/models/question.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/models/question.rb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/views/layouts/site.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/layouts/site.html.erb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/initializers/assets.rb" beforeDir="false" afterPath="$PROJECT_DIR$/config/initializers/assets.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/site/welcome/index.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/site/welcome/index.html.erb" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -191,7 +191,8 @@
       <workItem from="1648047563859" duration="1013000" />
       <workItem from="1648048588730" duration="3490000" />
       <workItem from="1648126506110" duration="617000" />
-      <workItem from="1648134536035" duration="7689000" />
+      <workItem from="1648134536035" duration="8465000" />
+      <workItem from="1648335969915" duration="3768000" />
     </task>
     <task id="LOCAL-00001" summary="Remove Profile">
       <created>1647530325063</created>
@@ -319,7 +320,14 @@
       <option name="project" value="LOCAL" />
       <updated>1648214538558</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="apply and config index site template">
+      <created>1648217561627</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1648217561627</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -354,6 +362,7 @@
     <MESSAGE value="install and config gem cocoon for form with nested attributes" />
     <MESSAGE value="config admin login template" />
     <MESSAGE value="apply user login template" />
-    <option name="LAST_COMMIT_MESSAGE" value="apply user login template" />
+    <MESSAGE value="apply and config index site template" />
+    <option name="LAST_COMMIT_MESSAGE" value="apply and config index site template" />
   </component>
 </project>
